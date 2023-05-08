@@ -23,18 +23,18 @@ Ako korisnik nije utipkao broj, ispišite na ekran poruku o grešci (koristite t
 Takod¯er, ako je broj izvan intervala [0.0 i 1.0] potrebno je ispisati odgovarajuc´u poruku.
 
 Zadatak 1.3 
-Napišite program koji od korisnika zahtijeva unos brojeva u beskonaˇcnoj petlji
+Napišite program koji od korisnika zahtijeva unos brojeva u beskonacnoj petlji
 sve dok korisnik ne upiše „Done“ (bez navodnika). Pri tome brojeve spremajte u listu. Nakon toga
 potrebno je ispisati koliko brojeva je korisnik unio, njihovu srednju, minimalnu i maksimalnu
 vrijednost. Sortirajte listu i ispišite je na ekran. Dodatno: osigurajte program od pogrešnog unosa
-(npr. slovo umjesto brojke) na naˇcin da program zanemari taj unos i ispiše odgovaraju´cu poruku.
-Zadatak 1.4.4 Napišite Python skriptu koja ´ce uˇcitati tekstualnu datoteku naziva song.txt.
-Potrebno je napraviti rjeˇcnik koji kao kljuˇceve koristi sve razliˇcite rijeˇci koje se pojavljuju u
-datoteci, dok su vrijednosti jednake broju puta koliko se svaka rijeˇc (kljuˇc) pojavljuje u datoteci.
+(npr. slovo umjesto brojke) na nacin da program zanemari taj unos i ispiše odgovarajucu poruku.
+Zadatak 1.4.4 Napišite Python skriptu koja ce ucitati tekstualnu datoteku naziva song.txt.
+Potrebno je napraviti rjecnik koji kao kljuˇceve koristi sve razlicite rijeci koje se pojavljuju u
+datoteci, dok su vrijednosti jednake broju puta koliko se svaka rijec (kljuc) pojavljuje u datoteci.
 Koliko je rijeˇci koje se pojavljuju samo jednom u datoteci? Ispišite ih.
 
 Zadatak 1.5 
-Napišite Python skriptu koja ´ce uˇcitati tekstualnu datoteku naziva SMSSpamCollection.txt
+Napišite Python skriptu koja ce ucitati tekstualnu datoteku naziva SMSSpamCollection.txt
 [1]. Ova datoteka sadrži 5574 SMS poruka pri ˇcemu su neke oznaˇcene kao spam, a neke kao ham.
 Primjer dijela datoteke:
 ham Yup next stop.
@@ -59,14 +59,14 @@ stupac polja je masa u kg.
 a) Na temelju velicine numpy polja data, na koliko osoba su izvršena mjerenja?
 b) Prikažite odnos visine i mase osobe pomocu naredbe matplotlib.pyplot.scatter.
 c) Ponovite prethodni zadatak, ali prikažite mjerenja za svaku pedesetu osobu na slici.
-d) Izraˇcunajte i ispišite u terminal minimalnu, maksimalnu i srednju vrijednost visine u ovom
+d) Izracunajte i ispišite u terminal minimalnu, maksimalnu i srednju vrijednost visine u ovom
 podatkovnom skupu.
 e) Ponovite zadatak pod d), ali samo za muškarce, odnosno žene. Npr. kako biste izdvojili
 muškarce, stvorite polje koje zadrži bool vrijednosti i njega koristite kao indeks retka.
 ind = (data[:,0] == 1)
 
 Zadatak 2.3 
-Skripta zadatak_3.py uˇcitava sliku ’road.jpg’. Manipulacijom odgovaraju´ce
+Skripta zadatak_3.py ucitava sliku ’road.jpg’. Manipulacijom odgovaraju´ce
 numpy matrice pokušajte:
 a) posvijetliti sliku,
 --(potamniti: sub_brightness = 50
@@ -83,16 +83,16 @@ plt.show()
 d) zrcaliti sliku.
 --(axis=0 za zrcaliti po x osi)
 
-Zadatak 2.4
- Napišite program koji ´ce kreirati sliku koja sadrži ˇcetiri kvadrata crne odnosno
+Zadatak 2.
+ Napišite program koji ce kreirati sliku koja sadrži cetiri kvadrata crne odnosno
 bijele boje (vidi primjer slike 2.4 ispod). Za kreiranje ove funkcije koristite numpy funkcije
 zeros i ones kako biste kreirali crna i bijela polja dimenzija 50x50 piksela. Kako biste ih složili
-u odgovaraju´ci oblik koristite numpy funkcije hstack i vstack.
+u odgovarajuci oblik koristite numpy funkcije hstack i vstack.
 
 ---LV3--
 Zadatak 3.1 
 Skripta zadatak_1.py ucitava podatkovni skup iz data_C02_emission.csv.
-Dodajte programski kod u skriptu pomo´cu kojeg možete odgovoriti na sljede´ca pitanja:
+Dodajte programski kod u skriptu pomo´cu kojeg možete odgovoriti na sljedeca pitanja:
 a) Koliko mjerenja sadrži DataFrame? Kojeg je tipa svaka velicina? Postoje li izostale ili
 duplicirane vrijednosti? Obrišite ih ako postoje. Kategoricke velicine konvertirajte u tip
 category.
@@ -100,10 +100,10 @@ category.
 b) Koja tri automobila ima najvecu odnosno najmanju gradsku potrošnju? Ispišite u terminal:
 ime proizvodaca, model vozila i kolika je gradska potrošnja.
 
-c) Koliko vozila ima velicinu motora izmedu 2.5 i 3.5 L? Kolika je prosjeˇcna C02 emisija
+c) Koliko vozila ima velicinu motora izmedu 2.5 i 3.5 L? Kolika je prosjecna C02 emisija
 plinova za ova vozila?
 
-d) Koliko mjerenja se odnosi na vozila proizvo ¯ daˇca Audi? Kolika je prosjeˇcna emisija C02
+d) Koliko mjerenja se odnosi na vozila proizvodaca Audi? Kolika je prosjecna emisija C02
 plinova automobila proizvodaca Audi koji imaju 4 cilindara?
 
 e) Koliko je vozila s 4,6,8. . . cilindara? Kolika je prosjecna emisija C02 plinova s obzirom na
@@ -192,7 +192,7 @@ c) Pronadite u atributima izgradenog modela parametre modela. Prikažite granicu
 naucenog modela u ravnini x1 −x2 zajedno s podacima za ucenje. Napomena: granica
 odluke u ravnini x1−x2 definirana je kao krivulja: θ0+θ1x1+θ2x2 = 0.
 
-d) Provedite klasifikaciju skupa podataka za testiranje pomoc´u izgrad¯enog modela logisticke
+d) Provedite klasifikaciju skupa podataka za testiranje pomocu izgradenog modela logisticke
 regresije. Izracunajte i prikažite matricu zabune na testnim podacima. Izracunate tocnost,
 preciznost i odziv na skupu podataka za testiranje.
 
@@ -203,28 +203,28 @@ primjere dok pogrešno klasificirane primjere oznacite crnom bojom.
 Zadatak 5.2 
 Skripta zadatak_2.py ucitava podatkovni skup Palmer Penguins [1]. Ovaj
 podatkovni skup sadrži mjerenja provedena na tri razlicite vrste pingvina (’Adelie’, ’Chinstrap’,
-’Gentoo’) na tri razliˇcita otoka u podruˇcju Palmer Station, Antarktika. Vrsta pingvina
+’Gentoo’) na tri razlicita otoka u podrucju Palmer Station, Antarktika. Vrsta pingvina
 odabrana je kao izlazna velicina i pri tome su klase oznacene s cjelobrojnim vrijednostima
 0, 1 i 2. Ulazne veliˇcine su duljina kljuna (’bill_length_mm’) i duljina peraje u mm (’flipper_
 length_mm’). Za vizualizaciju podatkovnih primjera i granice odluke u skripti je dostupna
 funkcija plot_decision_region.
 
 a) Pomocu stupcastog dijagrama prikažite koliko primjera postoji za svaku klasu (vrstu
-pingvina) u skupu podataka za uˇcenje i skupu podataka za testiranje. Koristite numpy
+pingvina) u skupu podataka za ucenje i skupu podataka za testiranje. Koristite numpy
 funkciju unique.
 
-b) Izgradite model logistiˇcke regresije pomo´cu scikit-learn biblioteke na temelju skupa podataka
-za uˇcenje.
+b) Izgradite model logisticke regresije pomocu scikit-learn biblioteke na temelju skupa podataka
+za ucenje.
 
-c) Pronad¯ite u atributima izgrad¯enog modela parametre modela. Koja je razlika u odnosu na
+c) Pronadite u atributima izgradenog modela parametre modela. Koja je razlika u odnosu na
 binarni klasifikacijski problem iz prvog zadatka?
 
-d) Pozovite funkciju plot_decision_region pri ˇcemu joj predajte podatke za uˇcenje i
+d) Pozovite funkciju plot_decision_region pri cemu joj predajte podatke za uˇcenje i
 izgrad¯eni model logisticˇke regresije. Kako komentirate dobivene rezultate?
 
-e) Provedite klasifikaciju skupa podataka za testiranje pomoc´u izgrad¯enog modela logisticˇke
+e) Provedite klasifikaciju skupa podataka za testiranje pomocu izgradenog modela logisticˇke
 regresije. Izraˇcunajte i prikažite matricu zabune na testnim podacima. Izraˇcunajte toˇcnost.
-Pomo´cu classification_report funkcije izraˇcunajte vrijednost ˇcetiri glavne metrike na skupu podataka za testiranje.
+Pomo´cu classification_report funkcije izracunajte vrijednost cetiri glavne metrike na skupu podataka za testiranje.
 
 f) Dodajte u model još ulaznih veliˇcina. Što se doga ¯ da s rezultatima klasifikacije na skupu
 podataka za testiranje?
@@ -233,7 +233,7 @@ podataka za testiranje?
 ---LV6---
 
 Zadatak 6.1
- Skripta zadatak_1.py uˇcitava Social_Network_Ads.csv skup podataka [2].
+ Skripta zadatak_1.py ucitava Social_Network_Ads.csv skup podataka [2].
 Ovaj skup sadrži podatke o korisnicima koji jesu ili nisu napravili kupovinu za prikazani oglas.
 Podaci o korisnicima su spol, dob i procijenjena pla´ca. Razmatra se binarni klasifikacijski
 problem gdje su dob i procijenjena pla´ca ulazne veliˇcine, dok je kupovina (0 ili 1) izlazna
@@ -258,7 +258,7 @@ ovih hiperparametara utjeˇce na granicu odluke te pogrešku na skupu podataka z
 Mijenjajte tip kernela koji se koristi. Što primje´cujete?
 
 Zadatak 6.5.4
- Pomo´cu unakrsne validacije odredite optimalnu vrijednost hiperparametra C i γ
+ Pomocu unakrsne validacije odredite optimalnu vrijednost hiperparametra C i γ
 algoritma SVM za problem iz Zadatka 1.
 --(print(svm_gscv.best_score_)
 print(svm_gscv.cv_results_)
@@ -269,36 +269,36 @@ Zadatak 7.5.1
 Skripta zadatak_1.py sadrži funkciju generate_data koja služi za generiranje
 umjetnih podatkovnih primjera kako bi se demonstriralo grupiranje. Funkcija prima cijeli broj
 koji definira željeni broju uzoraka u skupu i cijeli broj od 1 do 5 koji definira na koji naˇcin ´ce
-se generirati podaci, a vra´ca generirani skup podataka u obliku numpy polja pri ˇcemu su prvi i
-drugi stupac vrijednosti prve odnosno druge ulazne veliˇcine za svaki podatak. Skripta generira
+se generirati podaci, a vra´ca generirani skup podataka u obliku numpy polja pri cemu su prvi i
+drugi stupac vrijednosti prve odnosno druge ulazne velicine za svaki podatak. Skripta generira
 500 podatkovnih primjera i prikazuje ih u obliku dijagrama raspršenja.
 1. Pokrenite skriptu. Prepoznajete li koliko ima grupa u generiranim podacima? Mijenjajte
 naˇcin generiranja podataka.
 2. Primijenite metodu K srednjih vrijednosti te ponovo prikažite primjere, ali svaki primjer
 obojite ovisno o njegovoj pripadnosti pojedinoj grupi. Nekoliko puta pokrenite programski
-kod. Mijenjate broj K. Što primje´cujete?
-3. Mijenjajte naˇcin definiranja umjetnih primjera te promatrajte rezultate grupiranja podataka
+kod. Mijenjate broj K. Što primjecujete?
+3. Mijenjajte nacin definiranja umjetnih primjera te promatrajte rezultate grupiranja podataka
 (koristite optimalni broj grupa). Kako komentirate dobivene rezultate?
 
 Zadatak 7.5.2
- Kvantizacija boje je proces smanjivanja broja razliˇcitih boja u digitalnoj slici, ali
+ Kvantizacija boje je proces smanjivanja broja razlicitih boja u digitalnoj slici, ali
 uzimaju´ci u obzir da rezultantna slika vizualno bude što sliˇcnija originalnoj slici. Jednostavan
-naˇcin kvantizacije boje može se posti´ci primjenom algoritma K srednjih vrijednosti na RGB
+naˇcin kvantizacije boje može se postici primjenom algoritma K srednjih vrijednosti na RGB
 vrijednosti elemenata originalne slike. Kvantizacija se tada postiže zamjenom vrijednosti svakog
 elementa originalne slike s njemu najbližim centrom. Na slici 7.3a dan je primjer originalne
 slike koja sadrži ukupno 106,276 boja, dok je na slici 7.3b prikazana rezultantna slika nakon
 kvantizacije i koja sadrži samo 5 boja koje su odred¯ene algoritmom K srednjih vrijednosti.
 1. Otvorite skriptu zadatak_2.py. Ova skripta uˇcitava originalnu RGB sliku test_1.jpg
-te ju transformira u podatkovni skup koji dimenzijama odgovara izrazu 7.2 pri ˇcemu je n
-broj elemenata slike, a m je jednak 3. Koliko je razliˇcitih boja prisutno u ovoj slici?
-2. Primijenite algoritam K srednjih vrijednosti koji ´ce prona´ci grupe u RGB vrijednostima
+te ju transformira u podatkovni skup koji dimenzijama odgovara izrazu 7.2 pri cemu je n
+broj elemenata slike, a m je jednak 3. Koliko je razlicitih boja prisutno u ovoj slici?
+2. Primijenite algoritam K srednjih vrijednosti koji ce pronaci grupe u RGB vrijednostima
 elemenata originalne slike.
 3. Vrijednost svakog elementa slike originalne slike zamijeni s njemu pripadaju´cim centrom.
 4. Usporedite dobivenu sliku s originalnom. Mijenjate broj grupa K. Komentirajte dobivene
 rezultate.
 5. Primijenite postupak i na ostale dostupne slike.
-6. Grafiˇcki prikažite ovisnost J o broju grupa K. Koristite atribut inertia objekta klase
-KMeans. Možete li uoˇciti lakat koji upu´cuje na optimalni broj grupa?
+6. Graficki prikažite ovisnost J o broju grupa K. Koristite atribut inertia objekta klase
+KMeans. Možete li uociti lakat koji upucuje na optimalni broj grupa?
 7. Elemente slike koji pripadaju jednoj grupi prikažite kao zasebnu binarnu sliku. Što
 primje´cujete?
 
@@ -306,34 +306,34 @@ primje´cujete?
 ---LV8---
 Zadatak 8.4.1 
 MNIST podatkovni skup za izgradnju klasifikatora rukom pisanih znamenki
-dostupan je u okviru Keras-a. Skripta zadatak_1.py uˇcitava MNIST podatkovni skup te podatke
-priprema za uˇcenje potpuno povezane mreže.
-1. Upoznajte se s uˇcitanim podacima. Koliko primjera sadrži skup za uˇcenje, a koliko skup za
-testiranje? Kako su skalirani ulazni podaci tj. slike? Kako je kodirana izlazne veliˇcina?
-2. Pomo´cu matplotlib biblioteke prikažite jednu sliku iz skupa podataka za uˇcenje te ispišite
+dostupan je u okviru Keras-a. Skripta zadatak_1.py ucitava MNIST podatkovni skup te podatke
+priprema za ucenje potpuno povezane mreže.
+1. Upoznajte se s ucitanim podacima. Koliko primjera sadrži skup za ucenje, a koliko skup za
+testiranje? Kako su skalirani ulazni podaci tj. slike? Kako je kodirana izlazne velicina?
+2. Pomocu matplotlib biblioteke prikažite jednu sliku iz skupa podataka za ucenje te ispišite
 njezinu oznaku u terminal.
-3. Pomo´cu klase Sequential izgradite mrežu prikazanu na slici 8.5. Pomo´cu metode
+3. Pomocu klase Sequential izgradite mrežu prikazanu na slici 8.5. Pomo´cu metode
 .summary ispišite informacije o mreži u terminal.
-4. Pomo´cu metode .compile podesite proces treniranja mreže.
-5. Pokrenite uˇcenje mreže (samostalno definirajte broj epoha i veliˇcinu serije). Pratite tijek
-uˇcenja u terminalu.
+4. Pomocu metode .compile podesite proces treniranja mreže.
+5. Pokrenite ucenje mreže (samostalno definirajte broj epoha i veliˇcinu serije). Pratite tijek
+ucenja u terminalu.
 6. Izvršite evaluaciju mreže na testnom skupu podataka pomo´cu metode .evaluate.
-7. Izraˇcunajte predikciju mreže za skup podataka za testiranje. Pomo´cu scikit-learn biblioteke
+7. Izracunajte predikciju mreže za skup podataka za testiranje. Pomo´cu scikit-learn biblioteke
 prikažite matricu zabune za skup podataka za testiranje.
 8. Pohranite model na tvrdi disk.
 
 Zadatak 8.4.2 
-Napišite skriptu koja ´ce uˇcitati izgra ¯ denu mrežu iz zadatka 1 i MNIST skup
-podataka. Pomo´cu matplotlib biblioteke potrebno je prikazati nekoliko loše klasificiranih slika iz
+Napišite skriptu koja ce ucitati izgradenu mrežu iz zadatka 1 i MNIST skup
+podataka. Pomocu matplotlib biblioteke potrebno je prikazati nekoliko loše klasificiranih slika iz
 skupa podataka za testiranje. Pri tome u naslov slike napišite stvarnu oznaku i oznaku predvid¯enu
 mrežom.
 
 
 Zadatak 8.4.3 
-Napišite skriptu koja ´ce uˇcitati izgra ¯ denu mrežu iz zadatka 1. Nadalje, skripta
-treba uˇcitati sliku test.png sa diska. Dodajte u skriptu kod koji ´ce prilagoditi sliku za mrežu,
-klasificirati sliku pomo´cu izgra ¯ dene mreže te ispisati rezultat u terminal. Promijenite sliku
-pomo´cu nekog grafiˇckog alata (npr. pomo´cuWindows Paint-a nacrtajte broj 2) i ponovo pokrenite
+Napišite skriptu koja ce ucitati izgradenu mrežu iz zadatka 1. Nadalje, skripta
+treba ucitati sliku test.png sa diska. Dodajte u skriptu kod koji ce prilagoditi sliku za mrežu,
+klasificirati sliku pomocu izgradene mreže te ispisati rezultat u terminal. Promijenite sliku
+pomocu nekog grafickog alata (npr. pomo´cuWindows Paint-a nacrtajte broj 2) i ponovo pokrenite
 skriptu. Komentirajte dobivene rezultate za razliˇcite napisane znamenke.
 
 
@@ -341,33 +341,33 @@ skriptu. Komentirajte dobivene rezultate za razliˇcite napisane znamenke.
 ---LV9---
 
 Zadatak 9.4.1 
-Skripta Zadatak_1.py uˇcitava CIFAR-10 skup podataka. Ovaj skup sadrži
+Skripta Zadatak_1.py ucitava CIFAR-10 skup podataka. Ovaj skup sadrži
 50000 slika u skupu za uˇcenje i 10000 slika za testiranje. Slike su RGB i rezolucije su 32x32.
 Svakoj slici je pridružena jedna od 10 klasa ovisno koji je objekt prikazan na slici. Potrebno je:
 1. Prouˇcite dostupni kod. Od kojih se slojeva sastoji CNN mreža? Koliko ima parametara
 mreža?
-2. Pokrenite uˇcenje mreže. Pratite proces uˇcenja pomo´cu alata Tensorboard na sljede´ci naˇcin.
+2. Pokrenite ucenje mreže. Pratite proces ucenja pomocu alata Tensorboard na sljede´ci naˇcin.
 Pokrenite Tensorboard u terminalu pomo´cu naredbe:
 tensorboard –logdir=logs
-i zatim otvorite adresu http://localhost:6006/ pomo´cu web preglednika.
-3. Prouˇcite krivulje koje prikazuju toˇcnost klasifikacije i prosjeˇcnu vrijednost funkcije gubitka
-na skupu podataka za uˇcenje i skupu podataka za validaciju. Što se dogodilo tijekom uˇcenja
-mreže? Zapišite toˇcnost koju ste postigli na skupu podataka za testiranje.
+i zatim otvorite adresu http://localhost:6006/ pomocu web preglednika.
+3. Proucite krivulje koje prikazuju tocnost klasifikacije i prosjecnu vrijednost funkcije gubitka
+na skupu podataka za ucenje i skupu podataka za validaciju. Što se dogodilo tijekom uˇcenja
+mreže? Zapišite tocnost koju ste postigli na skupu podataka za testiranje.
 
 Zadatak 9.4.2 
-Modificirajte skriptu iz prethodnog zadatka na naˇcin da na odgovaraju´ca mjesta u
-mrežu dodate droput slojeve. Prije pokretanja uˇcenja promijenite Tensorboard funkciju povratnog
-poziva na naˇcin da informacije zapisuje u novi direktorij (npr. =/log/cnn_droput). Pratite tijek
-uˇcenja. Kako komentirate utjecaj dropout slojeva na performanse mreže?
+Modificirajte skriptu iz prethodnog zadatka na nacin da na odgovarajuca mjesta u
+mrežu dodate droput slojeve. Prije pokretanja ucenja promijenite Tensorboard funkciju povratnog
+poziva na nacin da informacije zapisuje u novi direktorij (npr. =/log/cnn_droput). Pratite tijek
+ucenja. Kako komentirate utjecaj dropout slojeva na performanse mreže?
 
 Zadatak 9.4.3
- Dodajte funkciju povratnog poziva za rano zaustavljanje koja ´ce zaustaviti proces
-uˇcenja nakon što se 5 uzastopnih epoha ne smanji prosjeˇcna vrijednost funkcije gubitka na
+ Dodajte funkciju povratnog poziva za rano zaustavljanje koja ce zaustaviti proces
+ucenja nakon što se 5 uzastopnih epoha ne smanji prosjeˇcna vrijednost funkcije gubitka na
 validacijskom skupu.
 
 Zadatak 9.4.4 
-Što se dogad¯a s procesom ucˇenja:
-1. ako se koristi jako velika ili jako mala veliˇcina serije?
-2. ako koristite jako malu ili jako veliku vrijednost stope uˇcenja?
-3. ako izbacite odred¯ene slojeve iz mreže kako biste dobili manju mrežu?
-4. ako za 50% smanjite veliˇcinu skupa za uˇcenje?
+Što se dogad¯a s procesom ucenja:
+1. ako se koristi jako velika ili jako mala velicina serije?
+2. ako koristite jako malu ili jako veliku vrijednost stope ucenja?
+3. ako izbacite odredene slojeve iz mreže kako biste dobili manju mrežu?
+4. ako za 50% smanjite velicinu skupa za ucenje?
